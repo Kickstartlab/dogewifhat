@@ -48,7 +48,7 @@ export default function Home() {
                             Are you tired of plain old DOGEs? Well, say hello to the most dapper DOGE in town - DOGE WIF HAT! 🎩🐕
                         </p>
 
-                        <a href='https://ravi-inc.gitbook.io/dogewifhat/' className='mb-6'>
+                        <a href='https://docs.dogewifhat.tech/' className='mb-6'>
                             <button className='bg-yellow-100 border-2 border-black-100
                              text-black-100 px-8 py-2 text-xl tracking-wider font-semibold rounded-lg duration-150 hover:scale-110'>
                                 Whitepaper
