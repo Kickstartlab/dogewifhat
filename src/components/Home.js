@@ -39,6 +39,10 @@ export default function Home() {
 
             {/* top section */}
 
+            <div className='py-3 text-center bg-yellow-100 md:text-3xl text-base'>
+                CA: BLF27NgaNYRJzqG58u539BiN7KFkKVoTdqmoT3DKg8w1
+            </div>
+
             <div className="lg:px-20 px-5 lg:py-20 py-6 bg-top lg:h-screen">
                 <div className='container mx-auto'>
                     <div className="text-center font-slackey space-y-8 text-yellow-100 flex flex-col mx-auto lg:w-9/12">
@@ -48,15 +52,25 @@ export default function Home() {
                             Are you tired of plain old DOGEs? Well, say hello to the most dapper DOGE in town - DOGE WIF HAT! 🎩🐕
                         </p>
 
-                        <a href='https://docs.dogewifhat.tech/' className='mb-6'>
-                            <button className='bg-yellow-100 border-2 border-black-100
+                        <div className='flex flex-wrap items-center justify-center gap-6'>
+                            <a href='https://docs.dogewifhat.tech/' className=''>
+                                <button className='bg-yellow-100 border-2 border-black-100
                              text-black-100 px-8 py-2 text-xl tracking-wider font-semibold rounded-lg duration-150 hover:scale-110'>
-                                Whitepaper
-                            </button>
-                        </a>
+                                    Whitepaper
+                                </button>
+                            </a>
+
+                            <a href='https://dexscreener.com/solana/9j15uy8eyp1vcvp9jkxqj1osr9oqt91nhhk3uz2jb4hp' className=''>
+                                <button className='bg-yellow-100 border-2 border-black-100
+                             text-black-100 px-8 py-2 text-xl tracking-wider font-semibold rounded-lg duration-150 hover:scale-110'>
+                                   Chart
+                                </button>
+                            </a>
+                        </div>
+
                     </div>
 
-                    <div className='lg:absolute right-0 lg:-mt-3 flex mx-auto'>
+                    <div className='lg:absolute right-0 lg:-mt-24 flex mx-auto'>
                         <iframe src="https://giphy.com/embed/1GAErYo91X5tejHofL" width="350" height="426" frameBorder="0" className="giphy-embed"></iframe>
                     </div>
                 </div>
@@ -67,9 +81,12 @@ export default function Home() {
             <div id='about' className="px-5 bg-about bg-black-100">
                 <div className='container mx-auto'>
 
-                    <div className='flex mx-auto items-center justify-center'>
-                        <img src={logo} alt='logo' className='lg:w-5/12 lg:absolute lg:ml-2 lg:mt-20'></img>
-                    </div>
+                    <a href='https://ibb.co/mhvNhWK'>
+                        <div className='flex mx-auto items-center justify-center'>
+                            <img src={logo} alt='logo' className='lg:w-5/12 lg:absolute lg:ml-2 lg:mt-20'></img>
+                        </div>
+                    </a>
+
 
                     <div className="lg:flex block justify-between gap-x-8 items-center lg:mt-72 mt-6 lg:space-y-0 space-y-8">
                         <div className=' lg:w-4/12'>
@@ -275,12 +292,21 @@ export default function Home() {
                             </p>
 
                             <div className='flex flex-wrap items-center justify-center gap-8'>
-                                <img src={p_1} alt='' className=''></img>
-                                <img src={p_2} alt='' className=''></img>
-                                <img src={p_3} alt='' className=''></img>
+                                <a href='https://www.pinksale.finance/solana/launchpad/4CW3HY27xNF18yaqEoZDyxuiFMT3KUQpPprFqxwdQFaL'> <img src={p_1} alt='' className=''></img>
+                                </a>
+                                <a href='https://www.dexview.com/solana/BLF27NgaNYRJzqG58u539BiN7KFkKVoTdqmoT3DKg8w1'>
+                                    <img src={p_2} alt='' className=''></img>
+                                </a>
+
+                                <a href='https://raydium.io/swap/?inputCurrency=sol&outputCurrency=BLF27NgaNYRJzqG58u539BiN7KFkKVoTdqmoT3DKg8w1&inputAmount=1&outputAmount=212893.169863&fixed=in'>
+                                    <img src={p_3} alt='' className=''></img>
+                                </a>
+
                             </div>
 
-                            <img src={p_4} alt='' className='flex mx-auto pt-5'></img>
+                            <a href='https://solscan.io/token/BLF27NgaNYRJzqG58u539BiN7KFkKVoTdqmoT3DKg8w1#holders'>
+                                <img src={p_4} alt='' className='flex mx-auto pt-5'></img>
+                            </a>
 
                         </div>
 
@@ -356,7 +382,7 @@ export default function Home() {
                             <div className='flex items-center justify-center gap-x-8'>
                                 <a href='https://x.com/dogwif_hat'><img src={twitter} alt='twitter'></img></a>
                                 <a href='https://t.me/doge_wifHat'><img src={telegram} alt='telegram'></img></a>
-                                <a href=''><img src={dextool} alt='dextools'></img></a>
+                                <a href='https://www.dextools.io/app/en/solana/pair-explorer/9j15uy8eYP1Vcvp9JKXqJ1oSr9oQT91NhhK3uz2jB4HP?t=1712436694223'><img src={dextool} alt='dextools'></img></a>
                             </div>
                         </div>
 
@@ -376,6 +402,7 @@ export default function Home() {
                     </div>
 
                     <p className='text-center md:text-3xl text-xl py-3'>Copyright © 2024 DOGEWIFHAT. All rights reserved.</p>
+                    <p className='text-center md:text-3xl text-xl py-3'>Email: <a href='mailto:support@dogewifhat.tech' className='hover:underline'>support@dogewifhat.tech</a></p>
 
                     <div className="lg:flex block justify-between items-center lg:space-y-0 space-y-8">
 
